@@ -38,6 +38,9 @@
 .small-box a{
     margin-top: 20px;
 }
+.small-box a:hover{
+    text-decoration: none;
+}
 .button{
     background-color: white;
     border-radius:10px;
