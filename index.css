@@ -4,8 +4,8 @@ body {
 	background: url(https://raw.githubusercontent.com/Diviee/Group_72/a64a5756d1792187a0341be2a641a8873664814d/Materials/images/pattern-background-desktop.svg);
 	background-repeat: no-repeat;
 /*	background-size:  cover;*/
-	/*margin: 0 auto;*/
-	/*padding: 50px;*/
+	margin: 0 auto;
+	padding: 50px;
 	text-align: center;
 }
 
