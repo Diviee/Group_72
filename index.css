@@ -35,11 +35,15 @@
    margin-top: 13px;
    margin-bottom: 13px;
 }
+.small-box p{
+	margin-top: 12px;
+}
 .small-box a{
     margin-top: 20px;
 }
 .small-box a:hover{
-    text-decoration: none;
+    text-decoration: underline;
+	color:#1E1FCD ;
 }
 .button{
     background-color: white;
@@ -57,6 +61,6 @@
 }
 .button:hover {
     transform: scale(.9);
-    background-color:rgba(142, 142, 235, 0.959);;
+    background-color:#1E1FCD;
     color: white;
 }
