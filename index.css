@@ -1,16 +1,59 @@
+.container {
+    background-image: url("pattern-background-desktop.svg");
+    background-repeat: none;
+    background-size: cover;
+    width: 70%;
+    margin: 50px 150px 50px 150px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    
 
-
-body {
-	background: url(https://raw.githubusercontent.com/Diviee/Group_72/a64a5756d1792187a0341be2a641a8873664814d/Materials/images/pattern-background-desktop.svg);
-	background-repeat: no-repeat;
-/*	background-size:  cover;*/
-	/*margin: 0 auto;*/
-	/*padding: 50px;*/
-	text-align: center;
 }
-
-/*.attribution { 
-	font-size: 11px; text-align: center; 
-	color: hsl(228, 45%, 44%); 
-}*/
- /* <svg xmlns="http://www.w3.org/2000/svg" width="1440" height="437"><path fill="#D6E1FF" fill-rule="evenodd" d="M0 349.974c218.558 116.035 460.05 116.035 724.475 0s502.933-116.035 715.525 0V0H0v349.974z"/></svg>*/
+.box-container{
+    background-color: white;
+    text-align: center;
+    margin: 0px 300px 0px 300px;
+    border:  none;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 1px 2px 2px 1px rgba(0, 0, 0, 0.13);
+}
+.box-container .banner{
+    width: 100%;
+}
+.small-box{
+    background-color: rgba(142, 142, 235, 0.089);
+    margin:0px 25px 0px 25px;
+    border: none; border-radius: 5px;
+    display: flex;
+    justify-content: space-evenly;
+    
+   
+}
+.small-box img{ 
+   height: 7vh;
+   margin-top: 13px;
+   margin-bottom: 13px;
+}
+.small-box a{
+    margin-top: 20px;
+}
+.button{
+    background-color: white;
+    border-radius:10px;
+    width: 80%; 
+    padding: 5px;
+    color: black;
+    margin-top:10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+}
+.button:hover {
+    transform: scale(.9);
+    background-color:rgba(142, 142, 235, 0.959);;
+    color: white;
+}
