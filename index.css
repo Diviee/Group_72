@@ -1,21 +1,63 @@
+
+
 .container {
-    background-image: url("pattern-background-desktop.svg");
+    /* background-image: url("pattern-background-desktop.svg"); */
     background-repeat: none;
     background-size: cover;
-    width: 70%;
-    margin: 50px 150px 50px 150px;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    
+    max-width: 250%;
+    padding-top: 10opx;
+    padding-bottom: 30px;
+    margin-top: 1px;
+    margin-bottom: 100px;
+   
 
 }
+.wrapper{
+    position: relative;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+  }
+  
+  .div1 {
+    background: linear-gradient(lightblue, white);
+    height: 50vh;
+  }
+  
+  .div2 {
+    margin-top: -300px;
+    background: aqua;
+    height: 50VH;
+    clip-path: url(#wave);
+    padding-top: 100px;
+    margin-bottom: -50px;
+    padding-top: -10%;
+    padding-left: 100px;
+    padding-right: 100px;
+    justify-content: center;
+    left: 0px;
+    right: 0px;
+    z-index: -1;
+
+  }
 .box-container{
-    background-color: white;
+   background-color: white;
+   position: relative;
     text-align: center;
-    margin: 0px 300px 0px 300px;
+   max-width: 30%;
+   box-sizing: content-box;
+   width: 100%;
+   justify-content: center;
+   margin-top: 50px;
+   margin-left: auto;
+	margin-right: auto;
     border:  none;
     border-radius: 10px;
     overflow: hidden;
+    z-index: 8;
     box-shadow: 1px 2px 2px 1px rgba(0, 0, 0, 0.13);
 }
 .box-container .banner{
