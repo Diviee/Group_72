@@ -103,7 +103,22 @@
     cursor: pointer;
     transition: all .3s ease-in-out;
 }
-.button1{
+.button{
+    background-color:hsl(245, 75%, 52%);
+    border-radius:10px;
+    width: 80%; 
+    padding: 5px;
+    color: black;
+    margin-top:10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+}
+
+..button1{
     background-color:white ;
     border-radius:10px;
     width: 80%; 
@@ -125,4 +140,4 @@
 .button1:hover {
     transform: scale(.9);
     background-color:white;
-}
+} 
