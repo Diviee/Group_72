@@ -1,7 +1,7 @@
 
 
 .container {
-    /* background-image: url("pattern-background-desktop.svg"); */
+    background-image: url("pattern-background-desktop.svg");
     background-repeat: none;
     background-size: cover;
     max-width: 250%;
